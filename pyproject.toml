@@ -11,16 +11,16 @@ dependencies = [
     "geopandas",
     "folium",
     "seaborn",
-    osmnx == 2.1.0
-    geopandas == 1.1.2,
-    pandas==3.0.0,
-    folium == 0.20.0,
-    mapclassify ==2.10.0,
-    numpy,
-    seaborn == 0.13.2,
-    contextily==1.7.0,
-    matplotlib==3.10.8,
-    ezdxf==1.4.3
+    "osmnx == 2.1.0
+    "geopandas == 1.1.2,
+    "pandas==3.0.0,
+    "folium == 0.20.0,
+    "mapclassify ==2.10.0,
+    "numpy",
+    "seaborn" == 0.13.2,
+    "contextily"==1.7.0,
+    "matplotlib"==3.10.8,
+    "ezdxf"==1.4.3
 ]
 readme = "README.md"
 requires-python = ">=3.8"
