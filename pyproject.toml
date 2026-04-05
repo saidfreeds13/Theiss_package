@@ -11,13 +11,10 @@ dependencies = [
     "geopandas",
     "folium",
     "seaborn",
-    "osmnx"
-    "geopandas",
+    "osmnx",
     "pandas",
-    "folium",
     "mapclassify",
     "numpy",
-    "seaborn",
     "contextily",
     "matplotlib",
     "ezdxf"
