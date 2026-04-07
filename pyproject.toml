@@ -17,7 +17,8 @@ dependencies = [
     "numpy",
     "contextily",
     "matplotlib",
-    "ezdxf"
+    "ezdxf", 
+    "SocSynStreets.py"
 ]
 readme = "README.md"
 requires-python = ">=3.8"
