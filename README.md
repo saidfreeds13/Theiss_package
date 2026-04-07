@@ -134,7 +134,7 @@ This section contains snippets from the experimental application of a method, fo
 
 #### Mismatches of the whole street-network
 <p align="center">
-  <img width="1080" height="1080" alt="BS_methodology drawio" src="https://github.com/saidfreeds13/Theiss_package/blob/7a8440c81dc3152641365c516d53686dfe4639f0/mismatches/s0_mismathes_Natural_Breaks_basemap.png">
+  <img width="900" height="900" alt="BS_methodology drawio" src="https://github.com/saidfreeds13/Theiss_package/blob/7a8440c81dc3152641365c516d53686dfe4639f0/mismatches/s0_mismathes_Natural_Breaks_basemap.png">
 </p>
 <p align= "center">
 
