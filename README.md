@@ -109,11 +109,11 @@ In order to install the package, containng the method use python environmnent su
 
 Firstly, clone the repo:
 ``` 
-!git clone https://github.com/saidfreeds13/Theiss_package/
+!git clone https://github.com/saidfreeds13/Social_syntax_of_street-networks/
 ```
 Then, install the git package and extract the package:
 ```
-!pip install git+https://github.com/saidfreeds13/Theiss_package.git
+!pip install git+https://github.com/saidfreeds13/Social_syntax_of_street-networks.git
 
 !pip install theiss-package
 ```
