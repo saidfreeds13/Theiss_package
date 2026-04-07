@@ -19,12 +19,12 @@ Nowadays, more often than not former industrial areas experience the consequence
 Street-network morphology via Space Syntax is taken for the  and its key measures of Integration and Choice. Whereas, the social organization is uderstood as a pattern of streets' functionality across the neighborhood. The operationalization for the social organization is done via a diveristy metric, showing how diverse and dense the functional uses of each street's segment.  
 
 <p align="center">
-  <img width="645" height="1002" alt="BS_methodology drawio" src="https://github.com/saidfreeds13/Theiss_package/blob/ef236e7db913c133b50ec5bd5bfd48bd367cfe32/canvas.png">
+  <img width="1080" height="1080" alt="BS_methodology drawio" src="https://github.com/saidfreeds13/Theiss_package/blob/0bbd5afda8f602ead7da3659a5dacf80bcbe6af1/canvas.png">
 </p>
 <p align= "center"> *The block-scheme of the method, author: Bereiya Said 2nd year master student of IDU ITMO* </p>
 
 ## B. The method's explanation ## 
-The main ETL-algorithms are packed in the library "streets_syntax_social" (installation instructions [below](https://github.com/saidfreeds13/Theiss_package/edit/master/README.md#c-method-installation))
+The main ETL-algorithms are packed in the library "streets_syntax_social" (installation instructions [below](https://github.com/saidfreeds13/Theiss_package/blob/master/README.md#c-method-installation)
 
 ### Algorithm 1. A street-network dataset with syntactic and functional diversity metrics  ###
 The key function of the method is "streets_social_sdataset()".
