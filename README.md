@@ -24,7 +24,7 @@ Street-network morphology via Space Syntax is taken for the  and its key measure
 <p align= "center"> *The block-scheme of the method, author: Bereiya Said 2nd year master student of IDU ITMO* </p>
 
 ## B. The method's explanation ## 
-The main ETL-algorithms are packed in the library "streets_syntax_social" (installation instructions [below](https://github.com/saidfreeds13/Theiss_package/blob/0bbd5afda8f602ead7da3659a5dacf80bcbe6af1/canvas.png)
+The main ETL-algorithms are packed in the library "streets_syntax_social" (installation instructions [below](https://github.com/saidfreeds13/Theiss_package/blob/master/README.md#c-method-installation)
 
 ### Algorithm 1. A street-network dataset with syntactic and functional diversity metrics  ###
 The key function of the method is "streets_social_sdataset()".
