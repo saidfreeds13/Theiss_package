@@ -1,4 +1,4 @@
-# Former industrial neighborhoods of Saint Petersburg: assessing relationships between street-network morphology and social organization of space. 
+# Former industrial neighborhoods of Saint Petersburg: assessing relationships between street-network morphology and social organization of space 
 *Developed by Bereiya Said Adnanovich, a master student of IDU, ITMO University*  
 *Supervised by Baltyzhakova Tatiana Igorevna, an associate professor of IDU, ITMO University*
 
