@@ -36,16 +36,20 @@ The main ETL-algorithms are packed in the library "streets_syntax_social" (insta
 The key function of the method is "streets_social_sdataset()".
 ``` 
 streets_social_sdataset(
-    uf = ,
-    streets_m = ,
-    package = "",
-    save_file="",
-    functions_subgroup_col_name = "",
-    functions_subgroup_col_alias = "",
-    urban_function_id = "",
-    urban_function_type_name = "",
-    morpho_metrics_list_cols = ["","", "", ""]
-    )
+    uf=,                           #Urban functions dataset in points (crs:WKT3857)
+    streets_m,                      #Street-network morphology dataset in MultiLines (crs:WKT3857)
+    urban_function_id,                   #unique identifier of an urban function
+    urban_function_type_name,                 #the category column denoting the type of the urban function 
+    morpho_metrics_list_cols,                 #the list of columns that contain the syntactic measures
+    functions_subgroup_col_name = None,         #subgrouping some kinds of functions denoted by a separate column
+    functions_subgroup_col_alias=None,           #the alias for the new subgouped diversity indexes 
+    save_file = ("csv","geojson", "none"),             #the format of the saving the resulting file
+    package = [
+      "Basic",
+      "Basic_plus",
+      "Advanced",
+      "Advanced_plus",
+      "All" ]                                        #choice of metrics (depends on a stakeholder's needs)
 ```
 Taking a street-network with morphological values and the urban functions (points), it builds a geo-dataset of street segmetns (LineString) with columns containing the syntactic and functional diversity metrics. Depending on the parameters set by a user, the number of characteristical columns may vary from four up to thirty. 
 
