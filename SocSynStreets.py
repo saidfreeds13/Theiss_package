@@ -138,17 +138,17 @@ def visuals(data, save_n=None):
 
       data.plot(
           column=col,
-          cmap='magma',
+          cmap='BuPu',
           scheme='NaturalBreaks',
           ax=ax,
           legend=True,
           alpha=1,
-          linewidth=1
+          linewidth=4
 
       )
 
 
-      cx.add_basemap(ax, crs=data.crs, source=cx.providers.CartoDB.DarkMatterNoLabels)
+      cx.add_basemap(ax, crs=data.crs, source=cx.providers.CartoDB.Positron)
 
 
       ax.set_axis_off()
@@ -215,23 +215,23 @@ def split_mism(data, col, segment_street=None, save_n = None):
 
     sm1.plot(
             column=col,
-            cmap='magma',
+            cmap='BuPu',
             scheme='NaturalBreaks',
             ax=ax[0],
             legend=True,
             alpha=1,
-            linewidth=1
+            linewidth=4
         )
 
     sm2[col] = abs(sm2[col])
     sm2.plot(
             column=col,
-            cmap='magma',
+            cmap='BuPu',
             scheme='NaturalBreaks',
             ax=ax[1],
             legend=True,
             alpha=1,
-            linewidth=1
+            linewidth=4
         )
 
     # Zoom to segment
@@ -242,8 +242,8 @@ def split_mism(data, col, segment_street=None, save_n = None):
         ax[1].set_xlim(minx, maxx)
         ax[1].set_ylim(miny, maxy)
 
-    cx.add_basemap(ax[0], crs=sm1.crs, source=cx.providers.CartoDB.DarkMatter)
-    cx.add_basemap(ax[1], crs=sm2.crs, source=cx.providers.CartoDB.DarkMatter)
+    cx.add_basemap(ax[0], crs=sm1.crs, source=cx.providers.CartoDB.Positron)
+    cx.add_basemap(ax[1], crs=sm2.crs, source=cx.providers.CartoDB.Positron)
 
     # Styling
 
