@@ -27,7 +27,7 @@ Social organization of space is uderstood as a distribution of urban functions a
 <p align="center">
   <img width="1080" height="1080" alt="BS_methodology drawio" src="https://github.com/saidfreeds13/Theiss_package/blob/0bbd5afda8f602ead7da3659a5dacf80bcbe6af1/canvas.png">
 </p>
-<p align= "center"> *The block-scheme of the method, author: Bereiya Said 2nd year master student of IDU ITMO* </p>
+<p align= "center"> *The pipeline of the geo-method, author: Bereiya Said 2nd year master student of IDU ITMO* </p>
 
 ## B. The method's explanation ## 
 The developed ETL-algorithms are packed in the SocSynStreets package (installation instructions are [below](https://github.com/saidfreeds13/Theiss_package/blob/master/README.md#c-method-installation))
