@@ -25,8 +25,8 @@ Street-network morphology is operationalized via Space Syntax. Its key measuresa
 Social organization of space is uderstood as a distribution of urban functions across a neighborhood. The operationalization for the social organization is done via a functional diveristy metric, showing how diverse and dense the social appropriation of each street's segment is.  
 
 <p align="center">
-  <img width="1080" height="1080" alt="BS_methodology drawio" src="https://github.com/saidfreeds13/Theiss_package/blob/0bbd5afda8f602ead7da3659a5dacf80bcbe6af1/canvas.png">
-</p>
+  <img width="1080" height="1080" alt="BS_methodology drawio" src="https://github.com/saidfreeds13/Social_syntax_of_street_networks/blob/14e643149582337d9ea85f7f86f2c13e0711ac99/The%20pipeline.png">
+</p> 
 <p align= "center"> *The pipeline of the geo-method, author: Bereiya Said 2nd year master student of IDU ITMO* </p>
 
 ## B. The method's explanation ## 
