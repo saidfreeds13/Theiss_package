@@ -7,7 +7,7 @@ A. [The Block-Scheme of the method](https://github.com/saidfreeds13/Theiss_packa
 B. [The method's explanation](https://github.com/saidfreeds13/Theiss_package/tree/master?tab=readme-ov-file#b-the-methods-explanation)  
 C. [Installation](https://github.com/saidfreeds13/Theiss_package/tree/master?tab=readme-ov-file#c-method-installation)  
 D. [Application illustration](https://github.com/saidfreeds13/Theiss_package/tree/master?tab=readme-ov-file#c-method-installation)  
-E. [Example of data preparation](https://github.com/saidfreeds13/Theiss_package/tree/master?tab=readme-ov-file#e-example-of-data-preparation)   
+E. [Example of data preparation](https://github.com/saidfreeds13/Social_syntax_of_street_networks/tree/master?tab=readme-ov-file#e-example-of-data-preparation-reproducable-from-the-repo)   
 F. [Publications](https://github.com/saidfreeds13/Theiss_package/tree/master?tab=readme-ov-file#e-publications)
 
 ## Introduction 
