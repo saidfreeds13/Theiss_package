@@ -153,7 +153,7 @@ To begin with, well-integrated streets do not necessarily attract a richer and d
 
 ### The results from the algorithm 2 (a possible representation) 
 
-#### Mismatches of the whole street-network
+#### A. Mismatches of the whole street-network
 <p align="center">
   <img width="900" height="900" alt="BS_methodology drawio" src="https://github.com/saidfreeds13/Theiss_package/blob/7a8440c81dc3152641365c516d53686dfe4639f0/mismatches/s0_mismathes_Natural_Breaks_basemap.png">
 </p>
@@ -161,7 +161,7 @@ To begin with, well-integrated streets do not necessarily attract a richer and d
 
 The algorithm produces two choropleths that estabilsh a direct correspondence between syntactic and social street hiararchies. 
 
-  #### Mismatches on a single street-level
+  #### B. Mismatches on a single street-level
 <p align="center">
   <img width="900" height="900" alt="BS_methodology drawio" src="https://github.com/saidfreeds13/Social_syntax_of_street_networks/blob/7c2d5ac76207a90d72a6a730d33e5dda82b94e31/Experimentation%20results/ezgif-6109f17076efe748.gif">
 </p>
