@@ -27,7 +27,7 @@ Social organization of space is uderstood as a distribution of urban functions a
 <p align="center">
   <img width="1080" height="1080" alt="BS_methodology drawio" src="https://github.com/saidfreeds13/Social_syntax_of_street_networks/blob/14e643149582337d9ea85f7f86f2c13e0711ac99/The%20pipeline.png">
 </p> 
-<p align= "center"> *The pipeline of the geo-method, author: Bereiya Said 2nd year master student of IDU ITMO* </p>
+<p align= "center"> Fig. 1 - The pipeline of the geo-method, author: Bereiya Said 2nd year master student of IDU ITMO </p>
 
 ## B. The method's explanation ## 
 The developed ETL-algorithms are packed in the SocSynStreets package (installation instructions are [below](https://github.com/saidfreeds13/Theiss_package/blob/master/README.md#c-method-installation))
@@ -102,9 +102,6 @@ After the activation of *streets_mismatched()*, the function would ask for the w
 2. Global scale  (only global syntactic measures are included in the relationship identification)
 3. Local scale   (only local syntactic measures are included in the relationship identification)
 
-```
-mism plot
-```
 
 ### Algorithm 2. Interpretation (In dev)
 As a result of the second algorithm, two street hierarchies are mathematically compared and the relationships between the two could be identified as matching or mismatching. 
@@ -129,16 +126,22 @@ Finally, import the method:
 ```
 import Social_syntax_of_street_networks.SocSynStreets
 ```
-## D. Experimental application (In dev)
+## D. Experimental application
 This section contains snippets from the experimental application of a method, for more detailed examples see the folder "Experiments"  
 
 ### The results from the algorithm 1 (a possible representation) 
 <p align="center">
   <img width="1080" height="1080" alt="BS_methodology drawio" src="https://github.com/saidfreeds13/Theiss_package/blob/60ae54740a34e6ecc8eee71a1e92f71bb4857e7c/Dashboard%20example.png">
 </p>
-<p align= "center"> Dashboard for the comparison of street-network morphology and social organization of space in southwestern part of the Grey Belt (St. Petersburg), author: Bereiya Said 2nd year master student of IDU ITMO </p>
+<p align= "center"> 
+  Fig. 2 - Dashboard for the comparison of street-network morphology and social organization of space in southwestern part of the Grey Belt (St. Petersburg), author: Bereiya Said 2nd year master student of IDU ITMO 
+</p>
 
-### The results from the algorithm 2 (a possible representation) (In dev)
+One observes a number of suggestive discrepancies between street-network morphology and social organization of space as represented with urban functions density and diversity metrics. 
+To begin with, well-integrated streets do not necessarily attract a richer and denser mix of activities, even less so with regards to social infrastructure functions. The latter is distributed sparsely and in a limited abundance across the street-network. The most alerting examples being the inner quarters of the neighborhood in a mild remoteness of the Metro station Narvskaya. More to it, these mismatches usually reveal a street use pattern with a high presence of either industrial, office functions or the abandoned sites. 
+
+
+### The results from the algorithm 2 (a possible representation) 
 
 #### Mismatches of the whole street-network
 <p align="center">
@@ -146,11 +149,16 @@ This section contains snippets from the experimental application of a method, fo
 </p>
 <p align= "center">
 
-#### Mismatches on a single street-level (In dev)
+The algorithm produces two choropleths that estabilsh a direct correspondence between syntactic and social street hiararchies. 
+
+  #### Mismatches on a single street-level
 <p align="center">
   <img width="900" height="900" alt="BS_methodology drawio" src="https://github.com/saidfreeds13/Social_syntax_of_street_networks/blob/7c2d5ac76207a90d72a6a730d33e5dda82b94e31/Experimentation%20results/ezgif-6109f17076efe748.gif">
 </p>
 <p align= "center">
+
+When a parametr of 
+
   
 ## E. Publications ##
 1. Bereiya S.A. The Street-Road Network of a Post-Socialist City as an Inherited System: Identifying Relationships between Morphology and Social Organization Using Tools of Digital Urban Studies // Information Technologies in Humanitarian Research: Proceedings of the International Scientific-Practical Conference, Krasnoyarsk, November 10–13, 2025 / – Krasnoyarsk: Siberian Federal University, 2026. - Pp. 98-103. - [URL.](https://bik.sfu-kras.ru/ft/LIB2/ELIB/u004/free/i-205105528.pdf#%5B%7B%22num%22%3A314%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22FitH%22%7D%2C744%5D) (*In Russian*)
