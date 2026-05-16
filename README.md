@@ -102,8 +102,18 @@ After the activation of *streets_mismatched()*, the function would ask for the w
 2. Global scale  (only global syntactic measures are included in the relationship identification)
 3. Local scale   (only local syntactic measures are included in the relationship identification)
 
+Based on the streets_mismatched dataset, an analysis proceeds to a visualization wit hthe following code: 
 
-### Algorithm 2. Interpretation (In dev)
+```
+split_mism(
+  data,
+  col,
+  segment_street=None,
+  save_n = None)
+```
+Here, the algorithm splits the subsets of positive and negative mismatches, since they translate a different logic. Importantly, segment_street is used for zooming in on a particular street in the network which can be handy in an analysis.  
+
+### Algorithm 2. Interpretation 
 As a result of the second algorithm, two street hierarchies are mathematically compared and the relationships between the two could be identified as matching or mismatching. 
 Importantly, the definition of (mis-)matching is fluid and dependent on an analyst's specification. Here, we provide a few examples of such definition and its impact on a pipeline realization.   
 1. Is social infrastructure generally located in the most integrated streets?
@@ -157,7 +167,7 @@ The algorithm produces two choropleths that estabilsh a direct correspondence be
 </p>
 <p align= "center">
 
-When a parametr of 
+An example of zooming in on a particular street.  
 
   
 ## E. Publications ##
