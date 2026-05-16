@@ -7,7 +7,8 @@ A. [The Block-Scheme of the method](https://github.com/saidfreeds13/Theiss_packa
 B. [The method's explanation](https://github.com/saidfreeds13/Theiss_package/tree/master?tab=readme-ov-file#b-the-methods-explanation)  
 C. [Installation](https://github.com/saidfreeds13/Theiss_package/tree/master?tab=readme-ov-file#c-method-installation)  
 D. [Application illustration](https://github.com/saidfreeds13/Theiss_package/tree/master?tab=readme-ov-file#c-method-installation)  
-E. [Publications](https://github.com/saidfreeds13/Theiss_package/tree/master?tab=readme-ov-file#e-publications)
+E. [Example of data preparation](https://github.com/saidfreeds13/Theiss_package/tree/master?tab=readme-ov-file#e-example-of-data-preparation) 
+F. [Publications](https://github.com/saidfreeds13/Theiss_package/tree/master?tab=readme-ov-file#e-publications)
 
 ## Introduction 
 Nowadays, more often than not former industrial areas experience the consequences of being "left-behind"[^1]. "Left-behindness" entails a variety of socio-spatial externalities such as physical deterioration of infrastructure[^2], an increased social tension[^3], stigmatization[^4]. These are what an American geographer Ed Soja called "metropolarities"[^5]: new (nonlinear) forms of social inequality and increased social contrasts. To initiate a more evidence-based regeneration projects and policy for these areas, a deep understanding of the exisitng space-society relationships is required, more so in the context of post-socialist cities [^6]. It is in the scope of this thesis to identify and characterise the forms of (paradoxical) relationships between the spatial morphology and social organization of space in the former industrial neighborhoods. A street-network, and a street as its element, are suggested as a perspective unit of analysis, allowing for porous movement between a micro-level and a meso-level scales. The city of interest is St. Petersburg (Russia) which has an immense territory of previous industrial use now referred to as "Gray Belt". The theoretical foundation of the research is the movement dubbed "Spatial Cultures" which emerged under the influence of Émile Durkheim’s sociology and the Space Syntax theory of Hillier and Hanson[^7].
@@ -169,8 +170,31 @@ The algorithm produces two choropleths that estabilsh a direct correspondence be
 
 An example of zooming in on a particular street.  
 
+## E. Example of data preparation (reproducable from the repo)
+
+```
+loc = pd.read_csv("/content/Social_syntax_of_street_networks/Experimentation results/E0_southwestern_grey_belt/urban_functions.csv")
+loc['geometry'] = from_wkt(loc['geometry'])
+loc = gpd.GeoDataFrame(loc, geometry='geometry', crs = 32636).to_crs(epsg=3857)
+streets_t = gpd.read_file("/content/Social_syntax_of_street_networks/Experimentation results/E0_southwestern_grey_belt/street_network.geojson")
+
+s1 = ss.streets_social_sdataset(
+  uf = loc,
+  streets_m = streets_t,
+  package = "All",
+  save_file="csv",
+  functions_subgroup_col_name = "if_si",
+  functions_subgroup_col_alias = "si",
+  urban_function_id = "fid",
+  urban_function_type_name = "type",
+  morpho_metrics_list_cols = ["INTr1500m","CHr1500m", "CHr600m", "INTr600m"]
+)
+```
+
+
+
   
-## E. Publications ##
+## F. Publications ##
 1. Bereiya S.A. The Street-Road Network of a Post-Socialist City as an Inherited System: Identifying Relationships between Morphology and Social Organization Using Tools of Digital Urban Studies // Information Technologies in Humanitarian Research: Proceedings of the International Scientific-Practical Conference, Krasnoyarsk, November 10–13, 2025 / – Krasnoyarsk: Siberian Federal University, 2026. - Pp. 98-103. - [URL.](https://bik.sfu-kras.ru/ft/LIB2/ELIB/u004/free/i-205105528.pdf#%5B%7B%22num%22%3A314%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22FitH%22%7D%2C744%5D) (*In Russian*)
 
 ---
